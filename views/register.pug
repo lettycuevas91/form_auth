@@ -1,0 +1,18 @@
+html
+  head
+    title UserNew
+  body
+    form(action="/register", method="post")
+      div
+        label(for="name") Nombre
+        input(type="text", id="name", name="name")
+
+      div
+        label(for="email") Email
+        input(type="text", id="email", name="email")
+
+      div
+        label(for="password") Contraseña
+        input(type="password", id="password", name="password")
+
+      button(type="submit") Enviar

@@ -1,0 +1,14 @@
+html
+  head
+    title Users
+  body
+    form(action="/login", method="post")
+      div
+        div
+          label(for="email") Email
+          input(type="text", id="email", name="email")
+        div(class="form-group")
+          label(for="password") Contraseña
+          input(type="password", id="password" name="password")
+        a(href="/register") Registrarse
+      button(type="submit") Login
